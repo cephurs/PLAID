@@ -1,0 +1,23 @@
+havecode false
+pic      false
+canary   false
+nx       false
+crypto   false
+va       false
+bits     64
+minopsz  1
+maxopsz  16
+pcalign  0
+endian   little
+stripped false
+static   true
+linenum  false
+lsyms    false
+relocs   false
+binsz    251280
+[Symbols]
+
+0 symbols
+Usage: rabin2 [-AcdeEghHiIjlLMqrRsSvVxzZ] [-@ addr] [-a arch] [-b bits]
+              [-B addr] [-C F:C:D] [-f str] [-m addr] [-n str] [-N m:M]
+              [-o str] [-O str] [-k query] [-D lang symname] | file
